@@ -1,6 +1,6 @@
 def square (n):
     i = 1
-    while i < n:
+    while i <= n:
         yield i ** 2
         i += 1
 
